@@ -1,0 +1,98 @@
+form {
+    width: 50%;
+    margin: 50px auto;
+    padding: 50px;
+    border: 1px solid #000000;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+input {
+    width: 80%;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    padding: 15px;
+    border-bottom: 1px solid #000000;
+}
+
+button {
+    background: #1e3799;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tab-task-container {
+}
+
+.tab-task-container .tab-container {
+    margin: 0 auto;
+    overflow: hidden;
+    border-bottom: none;
+    width: 60%;
+
+}
+
+.tab-task-container .tab-container button{
+    background-color: #cccccc;
+    border: 1px solid #000000;
+    border-bottom: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px 45px;
+    color: #000000;
+    border-radius: 3px 15px 0 0;
+    margin-right: 20px;
+    margin-left: 10px;
+    user-select: none;
+}
+
+.tab-task-container .tab-container button:hover {
+    background-color: #bbbbbb;
+}
+
+.tab-task-container .tab-container button.active {
+    background-color: #1e3799;
+    color: #ffffff;
+}
+
+.tab-task-container .task-container {
+    width: 60%;
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    background-color: #cccccc;
+}
+
+.tab-task-container .task {
+    padding: 50px;
+    border: 1px solid #000000;
+}
+
+.tab-task-container .done {
+    background-color: #00ff00;
+}
+
+.tab-task-container .undone {
+    background-color: #ff0000;
+}
+
+.hidden {
+    display: none;
+}
